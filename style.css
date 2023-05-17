@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+/* haeder start */
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+header
+{
+    width: 100%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logo
+{
+    text-transform: uppercase;
+}
+.links
+{
+    display: flex;
+    
+}
+.links li 
+{
+    margin: 15px;
+}
+.links li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px;
+    transition: 2s;
+}
+.links li a:hover
+{
+    background-color:white;
+    color:black;
+}
+/* header end */
+.banner
+{
+    width: 800px;
+    height: 80vh;
+    background: url(download.jfif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.banner .bannercontent
+{
+    width: 50%;
+    color: cadetblue;
+    text-align: center;
+    margin: 60px;
+}
+.banner .bannercontent h1
+{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.banner .bannercontent p
+{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
